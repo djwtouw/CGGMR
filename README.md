@@ -14,10 +14,12 @@ Note that the package is still in an early development stage and that various im
 CGGMR has the following dependencies:
 - dplyr
 - mvtnorm
+- parallel
 - Rcpp
 - RcppEigen
+- stats
 
-To install CCMMR, clone the repository, open `CGGMR.Rproj` in RStudio, and press install in the build panel. Alternatively, use devtools to install the package from GitHub via
+To install CGGMR, clone the repository, open `CGGMR.Rproj` in RStudio, and press install in the build panel. Alternatively, use devtools to install the package from GitHub via
 ```R
 library(devtools)
 install_github("djwtouw/CGGMR")
